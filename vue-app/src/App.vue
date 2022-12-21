@@ -1,23 +1,13 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+  import HelloWorld from './components/HelloWorld.vue'
+  import Hola from './components/Hola.vue'
+
 </script>
 
 <template>
   <div id="app">
-   
-    <v-row>
-      <v-col>
-        <h1>La meva app</h1>
-      </v-col>
-      <v-col>
-        <v-text-field
-        
-        ></v-text-field>
-        <v-text-field
-        
-        ></v-text-field>
-      </v-col>
-    </v-row>
+    <h1>La meva app</h1>
+    <Hola nom="Hicham"></Hola>
   </div>
 </template>
 
