@@ -4,7 +4,20 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div id="app">
-    <h1>La meva app</h1>
+   
+    <v-row>
+      <v-col>
+        <h1>La meva app</h1>
+      </v-col>
+      <v-col>
+        <v-text-field
+        
+        ></v-text-field>
+        <v-text-field
+        
+        ></v-text-field>
+      </v-col>
+    </v-row>
   </div>
 </template>
 
