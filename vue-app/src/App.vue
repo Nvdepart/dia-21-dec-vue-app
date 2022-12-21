@@ -7,8 +7,11 @@
 <template>
   <div id="app">
     <h1>La meva app</h1>
+  </div>
+  <div>
     <Hola nom="Hicham"></Hola>
   </div>
+  
 </template>
 
 <style scoped>
